@@ -18,9 +18,36 @@ https://github.com/nikcompsci/
 
 Visualize state-level COPD prevalence in the U.S. using R and CDC BRFSS data (adults 18+).
 
-
-
 ---
+
+
+
+## Visualization
+
+<p align="center">
+  <img src="figures/copd_map.png" alt="U.S. COPD Prevalence Map" width="600">
+</p>
+**Figure:** COPD prevalence is highest in the Southeastern U.S., based on CDC BRFSS data for adults 18+.
+
+The choropleth map was created using `ggplot2` and `geom_sf()`, with color gradients reflecting increasing COPD prevalence.
+
+
+
+**Key R Packages Used:**  
+
+- `tidyverse` – data manipulation and cleaning  
+
+- `sf` – spatial data handling  
+
+- `ggplot2` – data visualization  
+
+- `maps` – U.S. state boundary data  
+
+- `here` – reproducible file paths
+
+  
+
+------
 
 
 
@@ -28,7 +55,7 @@ Visualize state-level COPD prevalence in the U.S. using R and CDC BRFSS data (ad
 
 ### Centers for Disease Control and Prevention (CDC)
 
-**Behavioral Risk Factor Surveillance System (BRFSS): Prevalence & Trends Data, , Chronic Health Indicators: COPD, Adults 18+** 
+**Behavioral Risk Factor Surveillance System (BRFSS): Prevalence & Trends Data, Chronic Health Indicators: COPD, Adults 18+** 
 Prevalence & Trends Data, Adults 18+
 [https://www.cdc.gov/brfss/brfssprevalence/index.html](https://www.cdc.gov/brfss/brfssprevalence/index.html)
 
@@ -42,7 +69,7 @@ Prevalence & Trends Data, Adults 18+
 
 
 
-Project Structure
+## Project Structure
 
 US_COPD_Choropleth_Project/
 │
@@ -58,42 +85,7 @@ US_COPD_Choropleth_Project/
 ├── US_COPD_Choropleth_Project.Rproj
 └── README.md
 
-  
 
----
-
-
-
-## Visualization
-
-- Choropleth map created using `ggplot2` and `geom_sf()`.  
-- Color gradients reflect increasing COPD prevalence.
-
-**Key R Packages Used:**  
-
-- `tidyverse` – data manipulation and cleaning  
-
-- `sf` – spatial data handling  
-
-- `ggplot2` – data visualization  
-
-- `maps` – U.S. state boundary data  
-
-- `here` – reproducible file paths  
-
-  
-
----
-
-
-
-## Output
-
-**Figure:** `figures/copd_map.png`  
-
-- Choropleth map illustrating state-level COPD prevalence across the U.S.
-
-  
 
 ---
 
