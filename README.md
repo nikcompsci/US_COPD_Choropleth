@@ -40,7 +40,7 @@ Prevalence & Trends Data, Adults 18+
 
 # 📁 Project Structure
 
-![Project Structure](figures/folder_structure.png)
+<img src="figures/folder_structure.png" alt="Project Structure" width="300">
 
 ---
 
