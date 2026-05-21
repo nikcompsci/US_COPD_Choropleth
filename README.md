@@ -40,13 +40,15 @@ Prevalence & Trends Data, Adults 18+
 
 # Project Structure
 
-![Typora_WKPOdLkUxt](C:\Users\nicol\OneDrive\R\US_COPD_Choropleth_Project\US_COPD_Choropleth\Typora_WKPOdLkUxt.png)
+<img src="figures/folder_structure.png" alt="folder_structure" style="zoom:50%;" />
 
 ---
 
 
 
 ## Visualization
+
+![copd_map](figures/copd_map.png)
 
 - Choropleth map created using `ggplot2` and `geom_sf()`.  
 - Color gradients reflect increasing COPD prevalence.
