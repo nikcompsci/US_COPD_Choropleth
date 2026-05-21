@@ -38,15 +38,15 @@ Prevalence & Trends Data, Adults 18+
 
 
 
-# Project Structure
+\## 📁 Project Structure
 
-<img src="figures/folder_structure.png" alt="folder_structure" style="zoom:50%;" />
+<img src="figures/folder_structure.png" alt="Project Structure" width="300">
 
 ---
 
 
 
-## Visualization
+# Visualization
 
 ![copd_map](figures/copd_map.png)
 
