@@ -40,21 +40,7 @@ Prevalence & Trends Data, Adults 18+
 
 # Project Structure
 
-US_COPD_Choropleth_Project/
-│
-├── R/
-│   └── COPD_Prevalence.R
-│
-├── data/
-│   └── copd_state_prevalence.csv
-│
-├── figures/
-│   └── copd_map.png
-│
-├── US_COPD_Choropleth_Project.Rproj
-└── README.md
-
-  
+![Typora_WKPOdLkUxt](C:\Users\nicol\OneDrive\R\US_COPD_Choropleth_Project\US_COPD_Choropleth\Typora_WKPOdLkUxt.png)
 
 ---
 
